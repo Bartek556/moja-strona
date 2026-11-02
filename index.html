@@ -1,4 +1,99 @@
-<h1>Hello World!</h1>
-<p>This is the programming i hate this but I love the money</p>
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/s2-1.jpg" alt="Opis obrazka" width="300">
-<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" alt="Najebane koty" width="300">
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bartek – moja strona</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e2e;
+      color: #f0f0f0;
+      margin: 0;
+    }
+
+    header {
+      background-color: #ff6a00;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      background-color: #2a2a3d;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+    }
+
+    .galeria {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .galeria img {
+      width: 300px;
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    a {
+      color: #ffb37a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hello World!</h1>
+    <p>This is the programming, I hate this but I love the money 💸</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>O mnie</h2>
+      <p>Cześć, jestem Bartek. Uczę się frontendu i za miesiąc jadę na hackathon.</p>
+    </section>
+
+    <section>
+      <h2>Czego się uczę</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Galeria</h2>
+      <div class="galeria">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/s2-1.jpg" alt="Logo Linuxa">
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" alt="Biegające koty">
+      </div>
+    </section>
+
+    <section>
+      <h2>Gdzie się uczę</h2>
+      <p>Kurs: <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Bartek556</p>
+  </footer>
+
+</body>
+</html>
